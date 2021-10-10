@@ -46,7 +46,7 @@ function Login() {
     return (
         <div>
             <div className="App-header">
-                <h1>Authentication Portal</h1>
+                <h1>Login to Check A's</h1>
                 <div className="row">
                     <div className="col-md-6">
                         <img className="float-right" src={login} width="600" />

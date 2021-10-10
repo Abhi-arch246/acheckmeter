@@ -2,6 +2,8 @@ import React from 'react'
 import Background from './background.jpg'
 import huggingface from './huggingface.png'
 import noemoji from './noemoji.png'
+import kissemoji from './kissemoji.png'
+import loveable from './loveable.png'
 import { useHistory } from 'react-router'
 
 function Home() {
@@ -25,11 +27,11 @@ function Home() {
                 <div className="row">
                     <div className="mx-auto text-center col-md-4 rounded">
                         <h2 className="p-2 text-white">AB</h2>
-                        <img className="p-1 mt-4" src={huggingface} alt="" width="300" />
+                        <img className="p-1 mt-4" src={loveable} alt="" width="300" />
                     </div>
                     <div className="mx-auto text-center col-md-4 rounded">
                         <h2 className="text-white p-2">AK</h2>
-                        <img className="p-1 mt-4" src={noemoji} alt="" width="300" />
+                        <img className="p-1 mt-4" src={kissemoji} alt="" width="300" />
 
                     </div>
                 </div>
