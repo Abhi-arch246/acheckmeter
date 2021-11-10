@@ -11,7 +11,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (user == 'a24@gmail.com' && pass == 123456) {
+        if (user === 'a24@gmail.com' && pass === 123456) {
             Swal.fire({
                 title: 'Welcome A',
                 html: '<b>Click Proceed to continue<b>',
@@ -31,7 +31,7 @@ function Login() {
                 })
 
         }
-        else if (user == 'a21@gmail.com' && pass == 123456)
+        else if (user === 'a21@gmail.com' && pass === 123456)
             swal("Successful login", "Welcome Akhi", "success")
         else
             swal("Wrong Credentials", "Please try again", "error")
@@ -49,7 +49,7 @@ function Login() {
                 <h1>Login to Check A's</h1>
                 <div className="row">
                     <div className="col-md-6">
-                        <img className="float-right" src={login} width="600" />
+                        <img className="float-right" alt="something went wrong" src={login} width="600" />
                     </div>
                     <div className="col-md-6 my-auto bg-dark p-5 rounded">
                         <form onSubmit={handleSubmit}>
