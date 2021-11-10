@@ -1,15 +1,14 @@
 import React from 'react'
-import Background from './background.jpg'
-import huggingface from './huggingface.png'
-import noemoji from './noemoji.png'
-import kissemoji from './kissemoji.png'
-import loveable from './loveable.png'
+import Background from './images/background.jpg'
+import huggingface from './images/huggingface.png'
+import noemoji from './images/noemoji.png'
+import kissemoji from './images/kissemoji.png'
+import loveable from './images/loveable.png'
 import { useHistory } from 'react-router'
 
 function Home() {
 
     let log = useHistory()
-
     const back = {
         height: "100vh",
         background: `url(${Background})`,

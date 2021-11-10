@@ -11,9 +11,9 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (user === 'a24@gmail.com' && pass === 123456) {
+        if (user == 'a24@gmail.com' && pass == 123456) {
             Swal.fire({
-                title: 'Welcome A',
+                title: 'Welcome Abhi',
                 html: '<b>Click Proceed to continue<b>',
                 icon: 'success',
                 allowOutsideClick: false,
@@ -31,16 +31,12 @@ function Login() {
                 })
 
         }
-        else if (user === 'a21@gmail.com' && pass === 123456)
+        else if (user == 'a21@gmail.com' && pass == 123456)
             swal("Successful login", "Welcome Akhi", "success")
         else
             swal("Wrong Credentials", "Please try again", "error")
 
     }
-
-
-
-
 
 
     return (
