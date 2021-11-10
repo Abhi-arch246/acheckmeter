@@ -23,7 +23,7 @@ function Login() {
             })
                 .then((result) => {
                     if (result.isConfirmed) {
-                        history.push('./home')
+                        history.push('./Apage')
                     } else if (result.isDenied) {
                         history.push('./')
 

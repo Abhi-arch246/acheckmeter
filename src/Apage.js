@@ -6,7 +6,7 @@ import kissemoji from './images/kissemoji.png'
 import loveable from './images/loveable.png'
 import { useHistory } from 'react-router'
 
-function Home() {
+function Apage() {
 
     let log = useHistory()
     const back = {
@@ -43,4 +43,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Apage
