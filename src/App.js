@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Login from './Login'
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Login} />
-        <Route exact path="/home" component={() => <Apage />} />
+        <Route exact path="/Apage" component={() => <Apage />} />
       </Switch>
     </Router>
   );

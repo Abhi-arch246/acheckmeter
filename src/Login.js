@@ -42,7 +42,7 @@ function Login() {
     return (
         <div>
             <div className="App-header">
-                <h1>Login to Check A's</h1>
+                <h1 className="bg-dark p-3 rounded">Login to Check A's</h1>
                 <div className="row">
                     <div className="col-md-6">
                         <img className="float-right" alt="something went wrong" src={login} width="600" />
