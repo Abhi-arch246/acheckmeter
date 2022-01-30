@@ -3,6 +3,7 @@ import Background from './images/background.jpg'
 import huggingface from './images/huggingface.png'
 import noemoji from './images/noemoji.png'
 import kissemoji from './images/kissemoji.png'
+import breakin from './images/OIP.jpg'
 import loveable from './images/loveable.png'
 import { useHistory } from 'react-router'
 
@@ -26,7 +27,7 @@ function Apage() {
                 <div className="row">
                     <div className="mx-auto text-center col-md-4 rounded">
                         <h2 className="p-2 text-white">AB</h2>
-                        <img className="p-1 mt-4" src={loveable} alt="" width="300" />
+                        <img className="p-1 mt-4" src={breakin} alt="" width="300" />
                     </div>
                     <div className="mx-auto text-center col-md-4 rounded">
                         <h2 className="text-white p-2">AK</h2>
