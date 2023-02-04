@@ -3,7 +3,7 @@ import Background from './images/background.jpg'
 import huggingface from './images/huggingface.png'
 import noemoji from './images/noemoji.png'
 import kissemoji from './images/kissemoji.png'
-import breakin from './images/OIP.jpg'
+import breakin from './images/break.png'
 import loveable from './images/loveable.png'
 import { useHistory } from 'react-router'
 
