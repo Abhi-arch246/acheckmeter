@@ -33,6 +33,7 @@ function Login() {
         }
         else if (user == 'a21@gmail.com' && pass == 123456)
             swal("Successful login", "Welcome Akhi", "success")
+        history.push('./Apage')
         else
             swal("Wrong Credentials", "Please try again", "error")
 
